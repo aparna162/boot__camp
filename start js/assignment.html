@@ -1,0 +1,111 @@
+//diff bw get and post method//<br><br>
+GET METHOD :-Data passed in GET method is clearly visible in the address bar, which can compromise the security.
+
+
+
+<form action="assignment.html" method="get">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  POST METHOD :-
+  Data passed in POST method is not shown in the address bar, which maintains the security.
+    <form action="assignment.html" method="post">
+        Username:
+          <input type="text" name="username" /> <br><br>
+        Area of Study: 
+          <input type="text" name="area" /> <br><br>
+ 
+        <input type="submit" />
+    </form>
+    ***********************
+ inline css and internal css**********************<br>
+ Inline CSS: Inline CSS is a way of defining the styling of an HTML element by adding CSS rules directly to the element tag using the “style” attribute.
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{
+            
+            color: blue; 
+            font-size: 24px; 
+            font-weight: bold; 
+        }
+        p1 { 
+            color: green; 
+            font-size: 16px; 
+        } 
+    </style>
+</head>
+<body style="text-align:center ;"
+    <h2 style="color: rgb(70, 53, 156);  
+             font-size: 18px;"> 
+        Welcome To sharda university
+    </h2> 
+    <p style="color: rgb(38, 107, 172);">
+        Sharda University is an Indian private university in Knowledge Park III, Greater Noida, Uttar Pradesh. The university has been accredited with A+ Grade by the NAAC in 2022. </p>
+    </p>
+<h>Internal CSS:  It involves using the style element to enclose the css code within html document in head section</h>
+    <h3 > 
+        Welcome To sharda university
+    </h3> 
+    <p1>
+        Sharda University is an Indian private university in Knowledge Park III, Greater Noida, Uttar Pradesh. The university has been accredited with A+ Grade by the NAAC in 2022. </p>
+    </p1>
+
+    </body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+span.a {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: yellow; 
+}
+
+span.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid rgb(33, 149, 167);    
+  background-color: rgb(0, 157, 255); 
+}
+
+</style>
+</head>
+<body>
+
+<h1>The display Property</h1>
+
+<h2>display: inline</h2>
+<div>Sharda University is an Indian private university in Knowledge Park III, Greater Noida, Uttar Pradesh. The university has been accredited 
+    <span class="a">sharda</span> 
+    <span class="a">university</span> with A+ Grade by the NAAC in 2022. </div>
+
+<h2>display: inline-block</h2>
+<div>Sharda University is an Indian private university in Knowledge Park III, Greater Noida, Uttar Pradesh. The university has been accredited 
+    <span class="b">greater</span> 
+    <span class="b">noida</span> with A+ Grade by the NAAC in 2022.</div>
+
+
+
+</body>
+</html>
+
+
